@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Portfolio | Analisis Pembelajaran PPL Mandiri</title>
+  <meta name="description" content="E-Portfolio analisis pembelajaran instalasi Linux Ubuntu di Virtual Machine untuk kelas X PPLG" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+                 <!-- Ganti nav-logo menjadi wadah untuk 4 logo -->
+            <div class="nav-logos-container">
+        <!-- Logo Tut Wuri Handayani di paling kiri -->
+        <img src="assets/images/logo-tutwuri.png" alt="Logo Tut Wuri Handayani" class="nav-logo-img" />
+        <img src="assets/images/logo-ulm.png" alt="Logo ULM" class="nav-logo-img" />
+        <img src="assets/images/logo-diktisaintek.png" alt="Logo Diktisaintek" class="nav-logo-img wide" />
+        <img src="assets/images/logo-ppg.png" alt="Logo PPG" class="nav-logo-img" />
+      </div>
+            <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active">Beranda</a>
+        <a href="#profil" class="nav-link">Profil</a>
+        <a href="#analisis" class="nav-link">Analisis</a>
+        <a href="#dokumentasi" class="nav-link">Dokumentasi</a>
+        <a href="#refleksi" class="nav-link">Refleksi</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <span>PPLG • Kelas X</span>
+      </div>
+      <h1 class="hero-title">
+        E-Portfolio<br />
+        <span class="gradient-text">Analisis Pembelajaran PPL Mandiri Siklus 1</span>
+      </h1>
+      <p class="hero-subtitle">
+        Instalasi Linux (Ubuntu) di Virtual Machine — Refleksi, Analisis Produk,
+        Materi, Media, dan Instrumen Penilaian dalam Satu Portofolio Digital.
+      </p>
+      <div class="hero-meta">
+        <div class="meta-item"><i class="fa-solid fa-book-open"></i> 4 JP / 180 Menit</div>
+        <div class="meta-item"><i class="fa-solid fa-compact-disc"></i> Ubuntu LTS</div>
+        <div class="meta-item"><i class="fa-solid fa-microchip"></i> VirtualBox</div>
+      </div>
+      <div class="hero-actions">
+        <a href="#analisis" class="btn btn-primary">
+          <i class="fa-solid fa-compass"></i> Jelajahi Analisis
+        </a>
+        <a href="#dokumentasi" class="btn btn-ghost">
+          <i class="fa-solid fa-images"></i> Lihat Dokumentasi
+        </a>
+      </div>
+    </div>
+    <a href="#analisis" class="scroll-down" aria-label="Scroll down">
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </section>
+  <!-- ============ PROFIL DIRI ============ -->
+  <section class="section profile-section" id="profil">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-user-graduate"></i> Profil</span>
+        <h2 class="section-title">Tentang Saya</h2>
+        <p class="section-subtitle">
+          Guru yang menginspirasi, sabar, dan dekat dengan peserta didik.
+        </p>
+      </div>
+
+      <!-- Kartu Profil Utama -->
+      <div class="profile-card">
+        <div class="profile-avatar">
+          <div class="avatar-frame">
+            <img src="assets/images/profile.jpg" alt="Foto Allip Ma'rup Syahbana"
+                 onerror="this.replaceWith(createAvatarFallback())" id="profileImg" />
+          </div>
+          <div class="avatar-badge">
+            <i class="fa-solid fa-graduation-cap"></i> PPG Calon Guru
+          </div>
+        </div>
+
+        <div class="profile-info">
+          <h3 class="profile-name">Allip Ma'rup Syahbana</h3>
+          <p class="profile-role">
+            <i class="fa-solid fa-location-dot"></i>
+            Amuntai, Kabupaten Hulu Sungai Utara, Kalimantan Selatan
+          </p>
+
+          <div class="profile-tags">
+            <span class="tag"><i class="fa-solid fa-volleyball"></i> Hobi: Voli</span>
+            <span class="tag"><i class="fa-solid fa-school"></i> SMK Negeri 2 Banjarmasin</span>
+            <span class="tag"><i class="fa-solid fa-building-columns"></i> Universitas Lambung Mangkurat</span>
+          </div>
+
+          <div class="profile-about">
+            <h4><i class="fa-solid fa-circle-info"></i> Tentang Saya</h4>
+            <p>
+              Saya <strong>Allip Ma'rup Syahbana</strong>, berasal dari Amuntai, Kabupaten
+              Hulu Sungai Utara, Kalimantan Selatan. Saat ini saya menempuh
+              <strong>Pendidikan Profesi Guru (PPG)</strong> sebagai mahasiswa Calon Guru di
+              <strong>Universitas Lambung Mangkurat</strong>. Di waktu luang, saya gemar
+              bermain voli. Olahraga ini mengajarkan saya tentang kerja sama tim,
+              sportivitas, dan disiplin — nilai-nilai yang juga saya bawa ke dalam dunia
+              pendidikan.
+            </p>
+          </div>
+
+          <div class="profile-about highlight">
+            <h4><i class="fa-solid fa-star"></i> Guru yang Ingin Saya Jadi</h4>
+            <p>
+              Saya ingin menjadi guru yang <strong>menginspirasi, sabar, dan dekat dengan
+              peserta didik</strong>. Saya ingin menciptakan pembelajaran yang bermakna,
+              menyenangkan, dan relevan dengan kebutuhan dunia kerja, khususnya di jenjang
+              SMK. Saya ingin menjadi guru yang terus belajar, terbuka terhadap
+              perkembangan teknologi, dan mampu menjadi teladan dalam sikap maupun karakter.
+              Seperti dalam permainan voli, saya percaya setiap peserta didik punya peran
+              penting, dan tugas guru adalah membantu mereka tumbuh bersama sebagai satu tim.
+            </p>
+          </div>
+
+          <!-- Kontak -->
+          <div class="profile-contact">
+            <a href="https://instagram.com/allipmarupsyahbana_" target="_blank" class="contact-btn instagram">
+              <i class="fa-brands fa-instagram"></i>
+              <span>@allipmarupsyahbana_</span>
+            </a>
+            <a href="https://wa.me/62895635132542" target="_blank" class="contact-btn whatsapp">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>0895-6351-32542</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- LPTK & Sekolah Mitra -->
+      <div class="institution-grid">
+
+        <!-- LPTK -->
+        <div class="institution-card">
+          <div class="inst-header">
+            <div class="inst-icon"><i class="fa-solid fa-building-columns"></i></div>
+            <div>
+              <span class="inst-label">LPTK</span>
+              <h4>Universitas Lambung Mangkurat</h4>
+            </div>
+          </div>
+          <p class="inst-desc">
+            Saya terdaftar sebagai mahasiswa <strong>Pendidikan Profesi Guru (PPG) Calon
+            Guru</strong> di Universitas Lambung Mangkurat (ULM), Lembaga Pendidikan Tenaga
+            Kependidikan (LPTK) yang menaungi program PPG saya. Melalui program ini, saya
+            dibekali kompetensi pedagogik, profesional, kepribadian, dan sosial untuk menjadi
+            guru yang profesional. Pembekalan meliputi perancangan perangkat pembelajaran,
+            praktik mengajar, refleksi, dan pendampingan dari dosen serta guru pamong.
+          </p>
+          <div class="map-wrapper">
+            <iframe
+              src="https://www.google.com/maps?q=Universitas+Lambung+Mangkurat+Banjarmasin&output=embed"
+              width="100%" height="220" style="border:0;" allowfullscreen=""
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              title="Lokasi Universitas Lambung Mangkurat">
+            </iframe>
+          </div>
+          <a href="https://maps.google.com/?q=Universitas+Lambung+Mangkurat+Banjarmasin"
+             target="_blank" class="map-link">
+            <i class="fa-solid fa-map-location-dot"></i> Buka di Google Maps
+          </a>
+        </div>
+
+        <!-- Sekolah Mitra -->
+        <div class="institution-card">
+          <div class="inst-header">
+            <div class="inst-icon school"><i class="fa-solid fa-school"></i></div>
+            <div>
+              <span class="inst-label">Sekolah Mitra</span>
+              <h4>SMK Negeri 2 Banjarmasin</h4>
+            </div>
+          </div>
+          <p class="inst-desc">
+            <strong>SMK Negeri 2 Banjarmasin</strong> adalah sekolah mitra tempat saya
+            menjalani praktik pengalaman lapangan selama PPG. Di sini saya belajar langsung
+            menerapkan teori ke dalam pembelajaran nyata, mulai dari menyusun modul ajar,
+            mengelola kelas, mengajar peserta didik, hingga melakukan refleksi dan perbaikan.
+            Pengalaman ini membantu saya memahami karakter peserta didik SMK dan kebutuhan
+            pembelajaran yang berorientasi pada keterampilan dan dunia kerja.
+          </p>
+          <div class="map-wrapper">
+            <iframe
+              src="https://www.google.com/maps?q=SMK+Negeri+2+Banjarmasin&output=embed"
+              width="100%" height="220" style="border:0;" allowfullscreen=""
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              title="Lokasi SMK Negeri 2 Banjarmasin">
+            </iframe>
+          </div>
+          <a href="https://maps.google.com/?q=SMK+Negeri+2+Banjarmasin"
+             target="_blank" class="map-link">
+            <i class="fa-solid fa-map-location-dot"></i> Buka di Google Maps
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STATS ============ -->
+  <section class="stats-section">
+  <!-- ============ STATS ============ -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-solid fa-list-check"></i></div>
+          <div class="stat-info">
+            <h3 data-count="5">0</h3>
+            <p>Bagian Analisis</p>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-solid fa-file-lines"></i></div>
+          <div class="stat-info">
+            <h3 data-count="14">0</h3>
+            <p>Langkah Praktik</p>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-solid fa-display"></i></div>
+          <div class="stat-info">
+            <h3 data-count="22">0</h3>
+            <p>Slide Presentasi</p>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-solid fa-clipboard-check"></i></div>
+          <div class="stat-info">
+            <h3 data-count="5">0</h3>
+            <p>Instrumen Penilaian</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ANALISIS ============ -->
+  <section class="section" id="analisis">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-magnifying-glass-chart"></i> Analisis Mendalam</span>
+        <h2 class="section-title">Bagian Analisis</h2>
+        <p class="section-subtitle">
+          Setiap bagian dilengkapi dengan temuan, refleksi, dan akses ke artefak pendukung.
+        </p>
+      </div>
+
+            <div class="analysis-nav" id="analysisNav">
+        <button class="tab-btn active" data-tab="produk">
+          <i class="fa-solid fa-cubes-stacked"></i> Produk Rancangan
+        </button>
+        <button class="tab-btn" data-tab="materi">
+          <i class="fa-solid fa-book"></i> Materi
+        </button>
+        <button class="tab-btn" data-tab="media">
+          <i class="fa-solid fa-photo-film"></i> Media
+        </button>
+        <button class="tab-btn" data-tab="instrumen">
+          <i class="fa-solid fa-clipboard-list"></i> Instrumen
+        </button>
+      </div>
+
+      <div class="analysis-content" id="analysisContent">
+        <!-- Konten diisi oleh JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DOKUMENTASI ============ -->
+  <section class="section section-alt" id="dokumentasi">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-camera-retro"></i> Galeri</span>
+        <h2 class="section-title">Dokumentasi Kegiatan</h2>
+        <p class="section-subtitle">
+          Rekaman visual selama proses pembelajaran dan kegiatan pendukung.
+        </p>
+      </div>
+
+      <div class="gallery-filters" id="galleryFilters">
+        <button class="filter-btn active" data-filter="all">Semua</button>
+        <button class="filter-btn" data-filter="Pembelajaran">Pembelajaran</button>
+        <button class="filter-btn" data-filter="hasil-kerja">Hasil Kerja Murid</button>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- Diisi oleh JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ REFLEKSI ============ -->
+  <section class="section" id="refleksi">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-lightbulb"></i> Refleksi</span>
+        <h2 class="section-title">Pembelajaran & Tindak Lanjut</h2>
+        <p class="section-subtitle">Hal yang saya pelajari dan rencana perbaikan ke depan.</p>
+      </div>
+
+      <div class="reflection-grid">
+        <div class="reflection-card">
+          <div class="reflection-icon"><i class="fa-solid fa-circle-check"></i></div>
+          <h3>Apa yang Berhasil</h3>
+          <ul>
+            <li>Keselarasan tujuan, langkah LKPD, kuis, dan asesmen.</li>
+            <li>Enam sintaks Discovery Learning tertuang jelas dengan alokasi waktu.</li>
+            <li>Praktik 14 langkah dengan kotak centang melatih kemandirian.</li>
+            <li>Studi kasus PixelPlay Studio membuat materi kontekstual.</li>
+          </ul>
+        </div>
+        <div class="reflection-card">
+          <div class="reflection-icon"><i class="fa-solid fa-triangle-exclamation"></i></div>
+          <h3>Tantangan</h3>
+          <ul>
+            <li>Identitas modul belum konsisten antar dokumen.</li>
+            <li>Waktu instalasi bergantung spesifikasi laptop & kecepatan unduh.</li>
+            <li>Belum ada skenario cadangan untuk laptop tanpa virtualisasi.</li>
+            <li>Esai di luar kelas belum mengukur pemahaman hari itu.</li>
+          </ul>
+        </div>
+        <div class="reflection-card">
+          <div class="reflection-icon"><i class="fa-solid fa-arrow-trend-up"></i></div>
+          <h3>Tindak Lanjut</h3>
+          <ul>
+            <li>Menyiapkan rencana cadangan (kerja berpasangan).</li>
+            <li>Memeriksa konsistensi identitas dokumen sebelum dipakai.</li>
+            <li>Menyeragamkan data antar perangkat ajar.</li>
+            <li>Menambah visual nyata dan variasi interaktif.</li>
+            <li>Menyederhanakan rumus penilaian agar tidak tumpang tindih.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="logo-icon"><i class="fa-solid fa-cube"></i></span>
+          <div>
+            <h4>E-Portfolio PPL Mandiri</h4>
+            <p>Analisis Pembelajaran — Siklus 1</p>
+          </div>
+        </div>
+                <div class="footer-nav">
+          <a href="#home">Beranda</a>
+          <a href="#profil">Profil</a>
+          <a href="#analisis">Analisis</a>
+          <a href="#dokumentasi">Dokumentasi</a>
+          <a href="#refleksi">Refleksi</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> E-Portfolio</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose"><i class="fa-solid fa-xmark"></i></button>
+    <img src="" alt="Preview" id="lightboxImg" />
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+
+    <!-- ============ MODAL PREVIEW PDF ============ -->
+  <div class="pdf-modal" id="pdfModal">
+    <div class="pdf-modal-content">
+      <div class="pdf-modal-header">
+        <h4 id="pdfModalTitle">Preview Dokumen</h4>
+        <button class="pdf-modal-close" id="pdfModalClose"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="pdf-modal-body">
+        <iframe id="pdfModalIframe" src="" width="100%" height="100%" style="border:none;"></iframe>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
